@@ -27,3 +27,22 @@ body {
     text-wrap: balance;
   }
 }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  position: relative;
+}
+
+@layer base {
+  * {
+    @apply relative;
+  }
+}
+
+.portfolioCard {
+  background: linear-gradient(90deg, rgb(55, 59, 68), rgb(66, 134, 244));
+}
