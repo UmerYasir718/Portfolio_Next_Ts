@@ -1,4 +1,7 @@
 import About from "@/app/about/page";
+import Contact from "./contact/page";
+import MyResume from "./myResume/page";
+import Portfolio from "./portfolio/page";
 export default function page() {
   return (
     <>
@@ -64,6 +67,9 @@ export default function page() {
         </div>
       </section>
       <About />
+      <MyResume />
+      <Portfolio />
+      <Contact />
     </>
   );
 }
